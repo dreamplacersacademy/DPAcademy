@@ -1,0 +1,673 @@
+*{
+   
+     font-family: "Roboto", sans-serif;
+}
+
+#pre-tag{
+     font-family: "Roboto", sans-serif;
+
+}
+:root{
+     --primary-color:#182e6a;
+     --secondary-color: #d9b463;
+     --asset-color:#ebebea;
+}
+
+#navBar{
+     position: fixed;
+     width: 100%;
+     color: var(--asset-color);
+     z-index: 99;
+
+}
+
+#navBar nav{
+     background-color: var(--primary-color);
+}
+
+#navBar nav ul a{
+    color: var(--asset-color);
+}
+#contact-link{
+     color: var(--primary-color) ;
+     background-color: var(--secondary-color);
+     font-weight: 600;
+     
+}
+
+#contact-link:hover{
+     color: var(--secondary-color) ;
+     background-color:  var(--primary-color);
+     box-shadow: 2px 2px 10px gray;
+     font-weight: 600;
+     
+}
+
+#start-btn{
+     padding: 5px 15px;
+     border: 2px solid var(--primary-color);
+     border-radius: 5px;
+     background-color: transparent;
+     color: var(--primary-color);
+     cursor: auto;
+}
+
+#heroPage{
+     height: 90vh;
+     position: relative;
+     /* padding-bottom:%; */
+}
+
+#heroPage #parent{
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     justify-content: center;
+     height: 100%;
+     width: 100%;
+}
+
+#hero-heading span,#about-head{
+     font-size: 40px;
+     font-weight: 800;
+     color: var(--primary-color);
+}
+
+#hero-heading p{
+     width: 700px;
+     font-size: larger;
+     margin-top: 20px;
+     color: var(--primary-color);
+}
+
+#logo{
+     font-weight: 700;
+     color:var(--secondary-color);
+     
+}
+
+#logo img{
+     width: 50px;
+     height: 50px;
+     margin-right: 5px;
+}
+
+#logo-name{
+     background-color: #182e6a;
+     padding: 0px 5px;
+     color: #d9b463;
+}
+
+#logo-image{
+     background-image: url('./assets/WhatsApp\ Image\ 2025-10-18\ at\ 13.19.02-modified.png');
+     height: 50px;
+     width: 50px;
+
+}
+
+
+#letBtn{
+     background-color: var(--primary-color);
+     color: var(--asset-color);
+}
+
+#bg-hero{
+     background-image: url('./assets/Images/background/Hero\ Page\ Background.webp');
+     display: flex; 
+     align-items: center; 
+     height: 100%;
+     background-size: cover;
+}
+
+#aboutUS{
+     width: 100%;
+     height: 90vh;
+     background-image: url('./assets/Images/background/About\ Us\ Background.webp');
+     background-size: cover;
+     background-position: center bottom;
+}
+
+#aboutUS>div{
+     height: 100%;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     display: flex;
+     gap: 10px;
+     align-items:center;
+     justify-content: center;
+     position: relative;
+}
+
+#aboutUs-Container>div{
+     position: relative;
+     width: 60%;
+     height: 500px;
+     padding: 20px;
+   background-color: var(--asset-color);
+   border-radius: 5px;
+
+}
+
+#aboutUs-Container #about-img{
+     position: absolute;
+     height: 50%;
+     width: 50%;
+     right: -200px;
+     bottom: -60px;
+     background-color:var(--primary-color);
+     box-shadow: 2px 2px 10px gray;
+     padding: 20px 20px ;
+     border-radius: 5px;
+     
+}
+
+#higlight{
+     color: #d39611;
+     font-style: bold;
+}
+
+#aboutUs-Container div p{
+     color: var(--primary-color);
+}
+
+#short-p{
+     width: 73%;
+     color: var(--primary-color);
+}
+
+#about-inner{
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+}
+
+#about-inner img{
+     object-fit: cover top;
+     
+     position: relative;
+}
+
+
+
+#coursesPage{
+     width: 100%;
+     height: inherit;
+     padding-top:30px ;
+     padding-bottom: 30px;
+     background-color: var(--primary-color);
+}
+
+#courseCon{
+     display: flex;
+     height: 100%;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+#courseCon>h5{
+     color: var(--secondary-color);
+}
+
+#courseCon h1{
+     color: var(--asset-color);
+     margin: 20px;
+}
+
+#courseCon #course-line{
+     width: 200px;
+     height: 5px;
+     background-color: var(--secondary-color);
+     margin: 10px;
+}
+
+.card-container{
+     display: flex;
+     gap: 50px;
+     justify-content: center;
+     margin-top: 20px;
+     flex-wrap: wrap;
+
+}
+
+.card-container .card{
+     width: 350px;
+     height: 450px;
+     background-color: var(--asset-color);
+     /* filter: blur(1px); */
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     cursor: pointer;
+     transition: all .2s ease-in-out;
+     text-decoration: none;
+     
+}
+
+.card-container .card:hover{
+     box-shadow: 2px 2px 10px 5px var(--secondary-color);
+}
+
+.card-container .card p{
+     font-style: italic;
+}
+
+.card-container .card div button{
+     background-color: var(--secondary-color);
+     color: var(--primary-color);
+     font-weight: 500;
+}
+
+.card-container .card div button:hover{
+     background-color: #b89853dd;
+}
+
+.card-container .card-img{
+     width: 100%;
+     height: 50%;
+     overflow: hidden;
+}
+
+#why-con{
+     width: 100%;
+     height: inherit;
+     padding-top: 30px;
+     padding-bottom: 30px;
+
+}
+
+
+#why-con>h5{
+     color: var(--primary-color);
+}
+
+#why-con>p{
+     width: 82%;
+     color: var(--primary-color);
+     margin-top: 40px;
+     font-size: 20px;
+}
+#whyChooseUs{
+     background-image: url('./assets/Images/background/Why\ Choose\ Us\ Back\ Ground.webp');
+     background-size: cover;
+}
+
+#us{
+     color: var(--secondary-color);
+}
+
+.whyCard-container{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 40px;
+     
+}
+
+.whyCard-container .card{
+     width: 300px;
+     height: 300px;
+     background-color: transparent;
+     padding: 30px 10px;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     align-items:center ;
+     justify-content: space-between;
+     box-shadow: 5px 5px 10px var(--primary-color);
+     border: none;
+     transition: all .2s ease-in-out;
+}
+
+.whyCard-container .card:hover{
+     box-shadow: 5px 5px 10px 5px var(--primary-color);
+}
+
+
+
+.icon-con i{
+     color: var(--primary-color);
+     font-size: 40px;
+}
+
+.icon-con{
+     width: 70px;
+     height: 70px;
+     border-radius: 50%;
+     border: 2px solid var(--primary-color);
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: transparent;
+     box-shadow: 0px 2px 20px var(--primary-color);
+}
+
+.whyCard-container .card h5{
+     color: var(--primary-color);
+     font-weight: 700;
+}
+
+.whyCard-container .card p{
+     text-align: center;
+     color: var(--primary-color);
+     font-style: italic;
+}
+
+#getInTouch{
+     
+     background-image: url('./assets/top-view-blue-monday-concept-composition-with-telephone.jpg');
+     background-size: cover;
+     background-position: top;
+}
+
+#getTouch-con{
+     width: 100%;
+     height: inherit;
+     padding-top:30px;
+     padding-bottom: 30px;
+     display: flex;
+     gap: 20px;
+     justify-content:space-between;
+     align-items: center;
+     color: var(--primary-color);
+     flex-wrap: wrap;
+}
+
+#gettouch-con1{
+     width: 50%;
+
+}
+
+#gettouch-con1>p{
+     font-size: 20px;
+}
+
+.get-content{
+     display: flex;
+     gap: 10px;
+     align-items: center;
+}
+
+.get-content #get-icon{
+     background-color: #182e6a;
+     width: 50px;
+     height: 50px;
+     border-radius:50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+
+.get-content #get-icon i{
+     color: var(--asset-color);
+     font-size: 25px;
+}
+
+#personaldetails-con{
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     /* background-color: #275ef5; */
+     backdrop-filter: blur(10px);
+
+     padding: 20px;
+     border-radius: 5px;
+}
+
+#detail{
+     font-size: 20px;
+     font-weight: 500;
+     color: var(--primary-color);
+     text-decoration: none;
+}
+#detail a{
+     color: var(--primary-color);
+     text-decoration: none;
+}
+
+#social-icon{
+     width: 50px;
+     height: 50px;
+     background-color: var(--primary-color);
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+}
+
+#social-icon i{
+     color: white;
+     font-size: 25px;
+}
+
+#social-media{
+     display: flex;
+     gap: 20px;
+}
+
+#gettouch-con2{
+     align-self: center;
+     width: 40%;
+     padding: 20px;
+     background-color:transparent;
+     border-radius: 5px;
+     background-image: url('./assets/28428245_rm222batch5-mind-16.jpg');
+
+}
+
+#footer{
+     width: 100%;
+     height: 50px;
+     background-color: var(--primary-color);
+}
+
+#list{
+     background-color: var(--primary-color);
+}
+
+#list li a:hover{
+     background-color: #2d55c2;
+}
+
+
+@media screen and (max-width:1200px) {
+     #aboutUs-Container>div p{
+          font-size: 14px;
+     }
+
+     #aboutUs-Container #about-img{
+          width: 40%;
+          height: 40%;
+          right: -140px;
+          bottom: -30px;
+
+     }
+
+}
+
+@media screen and (max-width:992px) {
+     #aboutUs-Container>div p:nth-child(3){
+          display: none;
+     }
+
+     #aboutUs-Container #about-img{
+          width: 30%;
+          height: 30%;
+          right: -40px;
+          bottom: -10px;
+     }
+
+     #aboutUs-Container #about-img{
+          padding: 10px;
+     }
+     
+     #hero-heading p{
+          width: inherit;
+     }
+}
+
+@media screen and (max-width:768px) {
+         #aboutUs-Container>div p{
+          font-size: 12px;
+         }
+
+          #aboutUs-Container #about-img{
+               width: 30%;
+               height: 100px;
+               right: -60px;
+               bottom: -10px;
+             }
+          #short-p{
+               width: 90%;
+          }
+
+          #getTouch-con{
+               flex-direction: column;
+               width: 100%;
+          }
+
+          #gettouch-con1{
+               width: 80%;
+          }
+
+          #gettouch-con2{
+               width: 80%;
+          }
+          #personaldetails-con{
+               width: 100%;
+          }
+          #aboutUs-Container>div{
+               width: 70%;
+          }
+}
+
+@media screen and (max-width:768px) {
+     #head-footer{
+          font-size: medium;
+     }
+
+     #hero-heading span{
+          font-size: 30px;
+     }
+     #hero-heading p {
+          font-size: medium;
+     }
+
+         #aboutUs-Container #about-img {
+        width: 50%;
+        height: 160px;
+        right: -100px;
+        bottom: 0px;
+    }
+}
+
+@media screen and (max-width:600px) {
+         #aboutUs-Container #about-img {
+        width: 40%;
+        height: 130px;
+        right: -70px;
+        bottom: 0px;
+    }
+
+    #bg-hero{
+     background-position: center;
+    }
+
+    #head-footer{
+     font-size: 10px;
+    }
+}
+
+@media screen and (max-width:460px) {
+         #hero-heading span{
+          font-size: 20px;
+         }
+
+         #hero-heading p {
+          font-size: 14px;
+         }
+
+         #why-con>p{
+          font-size: 15px;
+         }
+         #why-con>h5{
+          font-size: 18px;
+         }
+
+         #gettouch-con1>p{
+          font-size: 18px;
+         }
+
+         #detail{
+          font-size: 14px;
+         }
+
+             #personaldetails-con h4{
+               font-size: 18px;
+             }
+     
+}
+
+
+@media screen and (max-width:433px) {
+     #aboutUs-Container #about-img {
+        width: 30%;
+        height: 80px;
+        right: -40px;
+        bottom: 0px;
+    }
+
+        #aboutUs-Container>div p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:394px) {
+         #hero-heading p {
+        font-size: 10px;
+    }
+    #logoName{
+     font-size: 15px;
+    }
+    #logo-image{
+     width: 30px;
+     height: 30px;
+    }
+
+    .card-container .card{
+     width: 300px;
+     height: 400px;
+    }
+
+    .card-container .card p {
+    margin: 0px;
+}
+
+    #detail {
+        font-size: 10px;
+    }
+
+    .get-content #get-icon {
+    background-color: #182e6a;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-content #get-icon i{
+     font-size: 15px;
+}
+}
+
+
+
+

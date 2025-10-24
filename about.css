@@ -1,0 +1,516 @@
+*{
+   
+     font-family: "Roboto", sans-serif;
+}
+
+#pre-tag{
+     font-family: "Roboto", sans-serif;
+
+}
+:root{
+     --primary-color:#182e6a;
+     --secondary-color: #d9b463;
+     --asset-color:#ebebea;
+}
+
+#navBar{
+     position: fixed;
+     width: 100%;
+     color: var(--asset-color);
+     z-index: 99;
+
+}
+
+#navBar nav{
+     background-color: var(--primary-color);
+}
+
+#navBar nav ul a{
+    color: var(--asset-color);
+}
+#contact-link{
+     color: var(--primary-color) ;
+     background-color: var(--secondary-color);
+     font-weight: 600;
+     
+}
+
+#contact-link:hover{
+     color: var(--secondary-color) ;
+     background-color:  var(--primary-color);
+     box-shadow: 2px 2px 10px gray;
+     font-weight: 600;
+     
+}
+
+#start-btn{
+     padding: 5px 15px;
+     border: 2px solid var(--primary-color);
+     border-radius: 5px;
+     background-color: transparent;
+     color: var(--primary-color);
+     cursor: auto;
+}
+
+#logo{
+     font-weight: 700;
+     color:var(--secondary-color);
+     
+}
+
+#logo img{
+     width: 50px;
+     height: 50px;
+     margin-right: 5px;
+}
+
+#logo-name{
+     background-color: #182e6a;
+     padding: 0px 5px;
+     color: #d9b463;
+}
+
+#logo-image{
+     background-image: url('./assets/WhatsApp\ Image\ 2025-10-18\ at\ 13.19.02-modified.png');
+     height: 50px;
+     width: 50px;
+
+}
+
+#navBar nav {
+    background-color: var(--primary-color);
+}
+
+#list{
+     background-color: var(--primary-color);
+}
+
+#list li a:hover{
+     background-color: #2d55c2;
+}
+
+#heroBg{
+     width: 30%;
+     height: 90vh;
+     background-image: url('./assets/Images/background/About\ Page\ Bg.webp');
+     background-size: cover;
+     background-position: center;
+}
+
+#heroPage{
+     position: relative;
+     display: flex;
+}
+
+#heroCon{
+     width: 70%;
+     background-color: white;
+     height: 90vh;
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+     justify-content: center;
+     padding-left:100px ;
+}
+
+#heading{
+     font-size: 120px;
+     font-weight: 300;
+     text-decoration: underline;
+     width: 100px;
+     font-family: 'Times New Roman', Times, serif;
+     color: var(--primary-color);
+     line-height: 85px;
+}
+
+#heroPersonImage{
+     width: 400px;
+     height: 300px;
+     border-radius: 5px;
+     background-image: url('./assets/everything-will-be-awesome-group-young-people-casual-clothes-working-modern-office.jpg');
+     background-size: cover;
+     margin-right: 30px;
+}
+
+#hero-content-con{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+#pra-con{
+     width: 600px;
+     font-size: larger;
+     color: var(--primary-color);
+}
+
+#ourMisson{
+     width: 100%;
+     height: 90vh;
+     background-image:url('./assets/Images/background/ourMisson\ Background.jpg') ;
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: right;
+}
+
+#decoration{
+     width: 300px;
+     height: 30px;
+     display: flex;
+     align-items: center;
+}
+
+.item{
+     width: 15px;
+     height: 15px;
+     background-color: var(--primary-color);
+     rotate: 45deg;
+     margin: 5px;
+     border-radius: 2px;
+}
+
+#line{
+     width: 100%;
+     height: 2px;
+     background-color: black;
+     margin: 0px 5px;
+     
+}
+
+#item-con{
+     display: flex;
+     gap: 5px;
+}
+
+#ourMissonCon{
+     padding-top: 40px;
+     padding-bottom: 30px;
+}
+
+#our-head{
+     width: 600px;
+     display: flex;
+     flex-direction: column;
+}
+
+#our-heading{
+     font-size: 60px;
+     color: var(--primary-color);
+}
+
+#our-heading-con{
+     display: flex;
+     flex-direction: column;
+     align-items: end;
+}
+
+.icon-container .icon{
+     width: 60px;
+     height: 60px;
+     border: 2px solid var(--primary-color);
+     border-radius: 5px;
+     rotate: 45deg;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.icon-container .icon div{
+     rotate: -45deg;
+     width: inherit;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.icon-container .icon div i{
+     font-size: 30px;
+     color: var(--primary-color);
+}
+
+.icon-container{
+     display: flex;
+     gap: 30px;
+}
+
+.icon-content div{
+     width: 500px;
+}
+
+#footer{
+     width: 100%;
+     height: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: var(--primary-color);
+     color: white;
+}
+
+#icon-container-group{
+     margin-top: 50px;
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+}
+
+@media screen and (max-width:1150px) {
+     #heroPersonImage{
+          width: 350px;
+          height: 250px;
+
+     }
+
+     #heading{
+          font-size: 90px;
+     }
+
+     #our-head{
+          width: 450px;
+     }
+     #our-heading{
+          font-size: 40px;
+     }
+
+     .icon-content div {
+          width: 400px;
+          font-size: 14px;
+     }
+
+     .icon-content h2{
+          font-size: 25px;
+     }
+}
+
+@media screen and (max-width:1050px) {
+         #heading{
+          font-size: 70px;
+          line-height: 65px;
+         }
+
+         #heroPersonImage {
+        width: 300px;
+        height: 200px;
+    }
+
+    #pra-con p{
+     width: 500px;
+     font-size: 16px;
+    }
+
+    .icon-content div{
+     width: 300px;
+    }
+
+    .icon-container .icon{
+     width: 40px;
+     height: 40px;
+    }
+
+    .icon-container .icon div i{
+     font-size: 25px;
+    }
+    #icon-container-group{
+     margin-top: 30px;
+    }
+
+    #ourMissonCon{
+     margin:0px 70px 0px 70px ;
+    }
+
+        #our-head {
+        width: 350px;
+    }
+
+        #pra-con p {
+        width: 400px;
+        font-size: 16px;
+    }
+
+        #heroPersonImage {
+        width: 250px;
+        height: 150px;
+    }
+
+        #heading {
+        font-size: 50px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width:730px) {
+         #pra-con p {
+        width: 300px;
+        font-size: 14px;
+    }
+
+        #heroPersonImage {
+        width: 200px;
+        height: 100px;
+    }
+
+        #heading {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    #pra-con{
+     width: 400px;
+    }
+
+    #ourMissonCon{
+     padding: 0px;
+    }
+    #icon-container-group{
+     width: 400px;
+    }
+
+        #our-heading {
+        font-size: 30px;
+    }
+
+    #decoration{
+     scale: 0.7;
+    }
+}
+
+@media screen and (max-width:610px) {
+         
+
+             #ourMissonCon {
+        margin: 0px 0px 0px 50px;
+    }
+
+    #our-heading-con {
+    align-items: start;
+}
+    #ourMissonCon {
+        margin: 0px 0px 0px 0px;
+    }
+
+        #pra-con p {
+        width: 200px;
+        font-size: 12px;
+    }
+    
+    #heading {
+     width: 40px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+        #heroPersonImage {
+        width: 150px;
+        height: 100px;
+    }
+
+        #pra-con {
+        width: 300px;
+    }
+
+    #ourMissonCon{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     /* justify-content: center; */
+     align-items: center;
+    }
+
+    #footer{
+     font-size: 12px;
+    }
+}
+
+@media screen and (max-width:524px) {
+     #pra-con{
+          width: 200px;
+     }
+
+     #our-heading {
+        font-size: 20px;
+    }
+
+        .icon-content h2 {
+          font-size: 16px;
+        }
+
+        .icon-content div {
+          font-size: 12px;
+        }
+}
+
+@media screen and (max-width:500px) {
+     .icon-container{
+          flex-direction: column;
+    align-items: center;
+    height: inherit;
+     }
+
+         .icon-content h2 {
+        font-size: 14px;
+        text-align: center;
+    }
+         .icon-content div{
+          width: 200px;
+          text-align: center;
+          font-size: 10px;
+         }
+             #our-heading-con {
+        align-items: center;
+    }
+
+        #heroPersonImage {
+          width: 100px;
+          height: 50px;
+        }
+
+         #heading {
+        width: 40px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+        #pra-con p {
+        width: 150px;
+        font-size: 12px;
+    }
+
+    #ourMisson{
+          height: inherit;
+     }
+}
+
+@media screen and (max-width:410px) {
+     #heroCon{
+          padding-left: 50px;
+     }
+
+     .icon-container{
+          width: 300px;
+     }
+
+     #icon-container-group{
+          width: 300px;
+     }
+
+         #our-heading-con{
+          width: 300px;
+         }
+
+     #our-head{
+          width: 300px;
+     }
+     #heroPersonImage{
+          margin-right: 10px;
+     }
+
+     #logoName{
+          font-size: 12px;
+     }
+
+     
+
+     #footer{
+     font-size: 8px;
+    }
+}
