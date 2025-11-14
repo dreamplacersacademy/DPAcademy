@@ -9,7 +9,7 @@
 }
 :root{
      --primary-color:#182e6a;
-     --secondary-color: #d9b463;
+     --secondary-color: RGB(210, 167, 47);
      --asset-color:#ebebea;
 }
 
@@ -314,10 +314,6 @@
      margin-top: 30px;
     }
 
-    #ourMissonCon{
-     margin:0px 70px 0px 70px ;
-    }
-
         #our-head {
         width: 350px;
     }
@@ -394,7 +390,7 @@
     }
     
     #heading {
-     width: 200px;
+     width: 40px;
         font-size: 30px;
         line-height: 30px;
     }
